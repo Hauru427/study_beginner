@@ -71,9 +71,3 @@ group :test do
 
 end
 
-group :development, :test do
-  # 他のgemと同様にgem "rspec-rails" を追加します
-  gem "rspec-rails"
-  # もしくは、最新の安定版をインストールする場合は以下のようにします
-  # gem "rspec-rails", ">= x.y.z", "< x.y+1.0"
-end
