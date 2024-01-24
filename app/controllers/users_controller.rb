@@ -19,6 +19,7 @@ class UsersController < ApplicationController
     @user.name = 'らんてくん'
     @user.age = 20
   end
+  
 
   # GET /users/1/edit
   def edit
